@@ -1,0 +1,11 @@
+li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+.todo-item{
+    display: flex;
+}
+.todo-item-data {
+  text-decoration: none;
+  display: flex;
+}

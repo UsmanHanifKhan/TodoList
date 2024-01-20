@@ -1,0 +1,41 @@
+.Todo-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Todo-form {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px ;
+  background: #007869;
+  min-width: 20rem;
+  border-radius: 5px;
+}
+.Todo-form input{
+    padding: 10px 30px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+.Todo-input{
+    display: flex;
+    flex-direction: column;
+}
+.error{
+    color: rgb(204, 18, 18);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.Todo-form button{
+    padding: 5px 20px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
